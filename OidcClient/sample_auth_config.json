@@ -1,0 +1,6 @@
+{
+  "auth" : {
+    "clientId": "client id",
+    "domain": "domain"
+  }
+}
