@@ -16,6 +16,7 @@
   "Auth0": {
     "Domain": "auth0 domain",
     "ClientId": "client id",
-    "ClientSecret": "client secret"
+    "ClientSecret": "client secret",
+    "Connection": "connection"
   }
 }

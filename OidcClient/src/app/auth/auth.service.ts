@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
 import * as config from '../../../auth_config.json';
 
 //change tenant property name
-var tenant = config["danco-mfa"];
+var tenant = config["auth"];
 
 @Injectable({
   providedIn: 'root'
@@ -18,14 +18,10 @@ export class AuthService {
     createAuth0Client({
       domain: tenant.domain,
       client_id: tenant.clientId,
-      scope: 'offline_access',
-      // screen_hint:'forgotpassword',
+      scope: 'offline_access',   
       cacheLocation: 'localstorage',
-      redirect_uri:   `${window.location.origin}/callback`,
-      
-      //response_type: 'code'
-     // audience: 'https://expenses-api',
-      // connection: 'DancoAzureAD'
+      redirect_uri:   `${window.location.origin}/callback`,    
+   
     })
   ) as Observable<Auth0Client>).pipe(
     shareReplay(1), // Every subscription receives the same shared value

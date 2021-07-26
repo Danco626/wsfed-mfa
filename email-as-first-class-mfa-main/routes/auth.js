@@ -38,7 +38,7 @@ router.get('/login', function(req, res, next) {
   passport.authenticate('auth0', {
     scope: 'enroll offline_access read:authenticators remove:authenticators openid profile email',
     audience: `https://${process.env.AUTH0_DOMAIN}/mfa/`,
-    connection: 'danco-saml-mfa',
+    connection: process.env.AUTH0_CONNECTION,
   })(req, res, (req, res) => {
     res.redirect("/")
   })
