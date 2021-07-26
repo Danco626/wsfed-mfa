@@ -1,0 +1,27 @@
+extends layout
+
+block content
+  .w3-card-4
+    h1 Welcome #{user.nickname}
+    img(src=user.picture)
+    pre
+      if askPhone
+        h4 Enter your Phone number
+          form(
+            method='post'
+            action='/enroll-sms'
+          )
+            input(
+              type='text'
+              name='phone_number'
+            )
+      else
+        h4 Enter your OTP sent to your phone number
+          form(
+            method='post'
+            action='/mfa-sms'
+          )
+            input(
+              type='text'
+              name='mfa_code'
+            )

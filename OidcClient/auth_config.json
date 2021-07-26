@@ -1,0 +1,77 @@
+{
+  "danco-login":
+  {
+    "clientId": "jQjR4vEb9OOJFRl9GxwUmET8zuNy8Ukb",
+    "domain": "danco.auth0.com"
+  }, 
+  "danco-training":
+  {
+    "clientId": "wsbaOBMqcHz01AbRwqYYEZiQmxyJO1fA",
+    "domain": "danco-training.us.auth0.com"
+  }, 
+  "danco-refreshToken":
+  {
+    "clientId": "Tf3qD46AmUpKs2grS3WyHKJulqTyKvmZ",
+    "domain": "danco-token-exchange.auth0.com"
+  }, 
+  "danco-sso":
+  {
+    "clientId": "tzAAjXCeZdTm2xEAE3Cl672kBuwsVAbH",
+    "domain": "danco-sso.auth0.com"
+  },
+  "danco-universal-login":
+  {
+    "clientId": "dg4BNgvUwxLgJYwCzH2uAGqQm52Rs9wm",
+    "domain": "danco-universal-login.auth0.com"
+  },
+  "danco-3rd":
+  {
+    "clientId": "WMZeYvqXswI6q0AU4AzicMRSrDnWLtX2",
+    "domain": "danco-3rd-party.auth0.com"
+  },
+  "danco":
+  {
+    "clientId": "7gV7o9ZHnyUU0MSbVGJRSBxDQIWRncJw",
+    "domain": "danco.auth0.com"
+  },
+  "danco-rules":
+  {
+    "clientId": "qpgekJ1Sxn7zw4YBTYgTzAFP14qFX6C0",
+    "domain": "danco-rules.auth0.com"
+  },
+  "danco-email":
+  {
+    "clientId": "BBiQ63tntMCHLzPBAPaKpmlr66myNuBO",
+    "domain": "danco-email.auth0.com"
+  },
+  "danco-mfa":
+  {
+    "clientId": "XsS079zr9btLaTItNQ851dcrycZQvCNU",
+    "domain": "danco-mfa.auth0.com"
+  },
+  "danco-saml-sp":
+  {
+    "clientId": "OITUFELGOguaSReH1nCa51rf11gNUDOZ",
+    "domain": "danco-saml-serviceprovider.auth0.com"
+  },
+  "danco-customdb":
+  {
+    "clientId": "5eNk7M1D6dTV0wmwy9XaBEhm48AAhl1l",
+    "domain": "danco-customdb.auth0.com"
+  },
+  "danco-hipster":
+  {
+    "clientId": "7ugOavrhpFxhO3i6I591UDMOPHm9OyUD",
+    "domain": "danco-hipsterbank.auth0.com"
+  },
+  "danco-del-admin":
+  {
+    "clientId": "lERxAhCPQMSLTWHUMQPYyAm6qxxDAHVj",
+    "domain": "danco-del-admin.auth0.com"
+  },
+  "CPG-Dev2":
+  {
+    "clientId": "01FNAxfzRtanfbQKNjHcpiKNEqWNuZq0",
+    "domain": "cpg-dev2.us.auth0.com"
+  }
+}
